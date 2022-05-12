@@ -1,0 +1,43 @@
+header {
+  position: sticky;
+  top: 0;
+  background: lightgray;
+  display: flex;
+  z-index: 1;
+  .navbar_content {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 5px;
+    }
+
+    li {
+      display: inline;
+      margin: 0 20px 0 0;
+
+      .active_item {
+        color: black;
+        font-size: 27px;
+        text-decoration: none;
+        padding: 5px 10px 32px 10px;
+        transition: 0.3s;
+
+        &:hover {
+          color: white;
+          background-color: dimgray;
+
+          .current_item {
+           //TODO: Realize removing of effect
+          }
+        }
+      }
+
+      .current_item {
+        color: white;
+        background-color: dimgray;
+      }
+
+    }
+  }
+}

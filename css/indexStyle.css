@@ -1,0 +1,19 @@
+main {
+  margin: 0 80px 0 80px;
+}
+main .image_hint {
+  color: gray;
+  font-size: 15px;
+  margin-left: 10px;
+}
+main .info_banner {
+  display: flex;
+  align-items: center;
+}
+main .info_banner p {
+  font-size: 25px;
+  margin-left: 10px;
+  font-family: Calibri;
+}
+
+/*# sourceMappingURL=indexStyle.css.map */
