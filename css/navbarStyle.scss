@@ -16,17 +16,24 @@ header {
       display: inline;
       margin: 0 20px 0 0;
 
+      .no_active_item{
+        color: #a1a1a1;
+        font-size: 27px;
+        text-decoration: none;
+      }
+
       .active_item {
         color: black;
         font-size: 27px;
         text-decoration: none;
+        border-radius: 5px;
         padding: 5px 10px 32px 10px;
         transition: 0.3s;
+
 
         &:hover {
           color: white;
           background-color: dimgray;
-
           .current_item {
            //TODO: Realize removing of effect
           }
@@ -37,7 +44,6 @@ header {
         color: white;
         background-color: dimgray;
       }
-
     }
   }
 }

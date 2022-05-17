@@ -1,20 +1,68 @@
+@import "normalize.css";
+@import "navbarStyle";
+@import "mainStyle";
+@import "footerStyle";
 
+.image_hint {
+  color: gray;
+  font-size: 15px;
+  margin-left: 10px;
+}
 
-main {
-  margin: 0 80px 0 80px;
-  .image_hint{
-    color: gray;
-    font-size: 15px;
+.info_block {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+
+  p {
+    font-size: 25px;
     margin-left: 10px;
-
+    font-family: "Bookman Old Style", serif;
   }
-  .info_banner {
+
+  img {
+    margin: 15px;
+  }
+}
+
+.quota {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+
+  .quota_text {
+    font-size: 21px;
+    width: 300px;
+  }
+
+  img {
+    margin: 5px;
+  }
+}
+
+.news_block {
+  margin-top: 10px;
+  background-color: white;
+
+  h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: Candara, serif;
+  }
+
+  .feed {
     display: flex;
-    align-items: center;
-    p {
-      font-size: 25px;
-      margin-left: 10px;
-      font-family: Calibri;
+    justify-content: space-evenly;
+
+    .news {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      width: 150px;
+      text-align: center;
     }
+
   }
 }

@@ -1,0 +1,88 @@
+@import "normalize.css";
+@import "navbarStyle";
+@import "mainStyle";
+@import "footerStyle";
+
+.map {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+
+  .map_content {
+    border: solid black 3px;
+    margin: 20px;
+
+    .mapouter {
+      position: relative;
+      text-align: right;
+      height: 352px;
+      width: 471px;
+    }
+
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      height: 352px;
+      width: 471px;
+    }
+  }
+
+  h3, a, p {
+    font-size: 22px;
+    font-family: "Bookman Old Style", serif;
+    text-decoration: none;
+    color: black;
+  }
+
+  th {
+    text-align: right;
+  }
+}
+
+.pieces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  table {
+    border-collapse: collapse;
+
+    thead {
+      background-color: #808080;
+
+      thead tr {
+        th {
+          width: 80px;
+          text-align: left;
+        }
+      }
+
+
+      table th, table td {
+        padding: 10px;
+      }
+    }
+
+    tbody {
+      tr {
+        background-color: #ececec;
+        font-size: 30px;
+
+        button {
+          background-color: yellow;
+          border: 1px;
+        }
+
+      }
+
+      tr:nth-child(even) {
+        background-color: #d1d1d1;
+      }
+
+      tr:hover {
+        cursor: pointer;
+        background-color: #929292;
+      }
+    }
+  }
+}

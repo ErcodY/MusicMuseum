@@ -66,60 +66,69 @@ footer .devinfo {
   margin-right: 20px;
 }
 
-.image_hint {
-  color: gray;
-  font-size: 15px;
-  margin-left: 10px;
-}
-
-.info_block {
+.map {
   margin-top: 10px;
   display: flex;
-  align-items: center;
-  background-color: white;
+  justify-content: center;
 }
-.info_block p {
-  font-size: 25px;
-  margin-left: 10px;
+.map .map_content {
+  border: solid black 3px;
+  margin: 20px;
+}
+.map .map_content .mapouter {
+  position: relative;
+  text-align: right;
+  height: 352px;
+  width: 471px;
+}
+.map .map_content .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 352px;
+  width: 471px;
+}
+.map h3, .map a, .map p {
+  font-size: 22px;
   font-family: "Bookman Old Style", serif;
+  text-decoration: none;
+  color: black;
 }
-.info_block img {
-  margin: 15px;
+.map th {
+  text-align: right;
 }
 
-.quota {
-  margin-top: 10px;
+.pieces {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background-color: white;
+  justify-content: center;
 }
-.quota .quota_text {
-  font-size: 21px;
-  width: 300px;
+.pieces table {
+  border-collapse: collapse;
 }
-.quota img {
-  margin: 5px;
+.pieces table thead {
+  background-color: #808080;
+}
+.pieces table thead thead tr th {
+  width: 80px;
+  text-align: left;
+}
+.pieces table thead table th, .pieces table thead table td {
+  padding: 10px;
+}
+.pieces table tbody tr {
+  background-color: #ececec;
+  font-size: 30px;
+}
+.pieces table tbody tr button {
+  background-color: yellow;
+  border: 1px;
+}
+.pieces table tbody tr:nth-child(even) {
+  background-color: #d1d1d1;
+}
+.pieces table tbody tr:hover {
+  cursor: pointer;
+  background-color: #929292;
 }
 
-.news_block {
-  margin-top: 10px;
-  background-color: white;
-}
-.news_block h2 {
-  text-align: center;
-  padding: 10px;
-  font-family: Candara, serif;
-}
-.news_block .feed {
-  display: flex;
-  justify-content: space-evenly;
-}
-.news_block .feed .news {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  width: 150px;
-  text-align: center;
-}
-
-/*# sourceMappingURL=indexStyle.css.map */
+/*# sourceMappingURL=visitStyle.css.map */

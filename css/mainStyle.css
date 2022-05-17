@@ -1,0 +1,11 @@
+body {
+  background: url("../images/music_background.jpg") repeat;
+  backdrop-filter: blur(2px);
+  background-size: 40%;
+}
+body main {
+  margin: 0 140px 0 140px;
+  background-color: #eeeeee;
+}
+
+/*# sourceMappingURL=mainStyle.css.map */

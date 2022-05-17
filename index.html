@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Music Museum | Home</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/navbarStyle.css">
     <link rel="stylesheet" href="css/indexStyle.css">
 </head>
 <body>
@@ -13,30 +11,76 @@
         <div class="navbar_content">
             <img src="images/icon.png" width="72" height="72" alt="icon">
             <ul>
-                <li><a class="active_item current_item" href="#">Home</a></li>
-                <li><a class="active_item" href="#">About Us</a></li>
-                <li><a class="active_item" href="#">Visit Us</a></li>
-                <li><a class="active_item" href="#">News</a></li>
+                <li><a class="active_item current_item" href="index.html">Home</a></li>
+                <li><a class="active_item" href="about.html">About Us</a></li>
+                <li><a class="active_item" href="visit.html">Visit Us</a></li>
+                <li><a class="no_active_item" href="javascript:alert('Soon available!');">News</a></li>
             </ul>
         </div>
     </nav>
 </header>
 <main>
-    <div class="info_banner">
-        <img src="images/music_info_banner.jpg" alt="music info banner">
-       <div>
-           <p>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-               et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-               qui officia deserunt mollit anim id est laborum.
-           </p>
-           <i class="image_hint">
-               Here some text about image.
-           </i>
-       </div>
+    <div class="info_block">
+        <div>
+            <p>
+                The Museum of Music of Azerbaijan is a modern, interactive and inviting cultural center where
+                you can see national instruments and learn their history. Read about and listen to great
+                composers.
+            </p>
+            <i class="image_hint">
+                The official logo of the museum.
+            </i>
+        </div>
+        <img src="images/icon.png" alt="icon" width="300" height="300">
+    </div>
+    <div class="info_block">
+        <img src="images/tar_music_inst.jpg" alt="tar">
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+            </p>
+            <i class="image_hint">
+                Here some text about image.
+            </i>
+        </div>
+    </div>
+    <div class="quota">
+        <img src="images/Alexander_Nikolaevich_Serov.jpg" alt="serov" width="350" height="400">
+        <p class="quota_text">
+            Music is the language of the soul; it is the realm of feelings and moods; it is the life of the soul
+            expressed in sounds.
+        </p>
+        <p>
+            Alexander Nikolaevich Serov
+        </p>
+    </div>
+    <div class="news_block">
+        <h2>Last News</h2>
+        <div class="feed">
+            <div class="news">
+                <img src="images/news_1.jpg" alt="news 1" width="120" height="150">
+                <h3>Birthday years of Uz...</h3>
+                <p>
+                    10 september is day of Music in Azerbaijan. But Why?
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
     </div>
 </main>
+<footer>
+    <div class="copyright">
+        <p>Azerbaijan Music Museum©</p>
+        <p>All rights reserved. 2022-2022</p>
+    </div>
+    <div class="devinfo">
+        <p>Ergyun Taghiyev</p>
+        <p>My <a href="https://github.com/ErcodY">Github</a></p>
+    </div>
+</footer>
 </body>
 </html>

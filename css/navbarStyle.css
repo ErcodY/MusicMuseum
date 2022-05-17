@@ -1,0 +1,36 @@
+header {
+  position: sticky;
+  top: 0;
+  background: lightgray;
+  display: flex;
+  z-index: 1;
+}
+header .navbar_content {
+  display: flex;
+  align-items: center;
+}
+header .navbar_content img {
+  margin-left: 5px;
+}
+header .navbar_content li {
+  display: inline;
+  margin: 0 20px 0 0;
+}
+header .navbar_content li .active_item {
+  color: black;
+  font-size: 27px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 10px 32px 10px;
+  transition: 0.3s;
+}
+header .navbar_content li .active_item:hover {
+  color: white;
+  background-color: dimgray;
+}
+header .navbar_content li .current_item {
+  color: white;
+  background-color: dimgray;
+}
+
+/*# sourceMappingURL=navbarStyle.css.map */
