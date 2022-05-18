@@ -47,6 +47,7 @@ body {
 body main {
   margin: 0 140px 0 140px;
   background-color: #eeeeee;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 footer {
@@ -70,7 +71,7 @@ footer .devinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .about img {
   border-radius: 10px;
